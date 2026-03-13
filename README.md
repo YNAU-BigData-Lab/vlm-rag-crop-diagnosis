@@ -2,6 +2,8 @@
 
 > A lightweight, efficient system integrating Efficient Visual Recognition and Retrieval-Augmented Generation (RAG) for precision Crop Disease Diagnosis and Management.
 
+<p align="center"><img src="system_architecture.jpg" alt="System Architecture" width="100%"></p>
+
 ## 🌟 Core Features
 
 * ✅ **Lightweight Visual Diagnosis:** Utilizes an efficient visual model (e.g., MobileNetV3-large) for rapid, high-accuracy disease recognition from crop images. *(Achieved 98% accuracy on 11 crop disease categories)*
