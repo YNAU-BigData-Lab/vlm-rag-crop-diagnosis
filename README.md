@@ -2,7 +2,7 @@
 
 > A lightweight, efficient system integrating Efficient Visual Recognition and Retrieval-Augmented Generation (RAG) for precision Crop Disease Diagnosis and Management.
 
-<p align="center"><img src="system_architecture.jpg" alt="System Architecture" width="100%"></p>
+<p align="center"><img src="abstract.png" alt="System Architecture" width="100%"></p>
 
 ## 🌟 Core Features
 
