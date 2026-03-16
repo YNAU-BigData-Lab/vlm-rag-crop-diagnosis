@@ -9,13 +9,7 @@ The full source code, dataset samples, fine-tuned weights, and detailed technica
 
 ## 🌟 System Overview
 
-This repository will host the code for a novel, lightweight vision-language system designed for efficient and accessible crop disease diagnosis and management. The proposed system integrates three core pipelines:
-
-1. **Lightweight Visual Recognition Module:** Utilizes an optimized, highly efficient convolutional neural network architecture tailored for rapid disease identification from field images, ensuring deployment feasibility on resource-constrained devices.
-   
-2. **Retrieval-Augmented Generation (RAG) Module:** Leverages a custom-built, domain-specific agricultural text corpus. When a disease is visually identified, the RAG module retrieves the most relevant, reliable management practices and preventative measures.
-   
-3. **Interactive LLM Diagnosis Assistant:** Integrates a fine-tuned Large Language Model (LLM) to synthesize the visual findings and retrieved expert knowledge, generating structured, accurate, and actionable agricultural prescriptions through a conversational interface.
+Lightweight VLM-RAG for Crop Diagnosis
 
 ## 🚀 Release Roadmap
 
