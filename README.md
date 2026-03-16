@@ -1,6 +1,6 @@
 # vlm-rag-crop-diagnosis
 
-> A lightweight, efficient system integrating Efficient Visual Recognition and Retrieval-Augmented Generation (RAG) for precision Crop Disease Diagnosis and Management.
+> vlm-rag-crop-diagnosis
 
 <p align="center"><img src="abstract.png" alt="System Architecture" width="100%"></p>
 
