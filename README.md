@@ -1,27 +1,29 @@
 # vlm-rag-crop-diagnosis
 
-> vlm-rag-crop-diagnosis
+> Official implementation of our submitted research on lightweight crop disease diagnosis.
+
+⚠️ **Notice / 声明** **The full source code, dataset, and pre-trained models are currently being organized. Pending the paper's acceptance, the complete repository contents are temporarily hidden. Everything will be fully open-sourced immediately upon publication.** *(完整的源代码、数据集和预训练模型目前正在整理中。在论文正式被接收之前，仓库的详细内容将暂时隐藏。所有资料将在论文发表后立即全面开源。)*
 
 <p align="center"><img src="abstract.png" alt="System Architecture" width="100%"></p>
 
-## 🌟 Core Features
+## 🌟 Overview
 
-* ✅ **Lightweight Visual Diagnosis:** Utilizes an efficient visual model (e.g., MobileNetV3-large) for rapid, high-accuracy disease recognition from crop images. *(Achieved 98% accuracy on 11 crop disease categories)*
-* ✅ **RAG-based Management Advice:** Leverages Retrieval-Augmented Generation with a fine-tuned Large Language Model (e.g., Qwen 2.5 7B Instruct) to generate targeted, knowledge-backed management strategies from reliable agricultural texts.
-* ✅ **Crop QA System:** Integrates visual results and a RAG-powered knowledge base for interactive disease question answering.
+This repository will host the code for a lightweight vision-language system designed for efficient crop disease diagnosis and management. The proposed system integrates:
 
-## 🚀 Process Flow
+* **Lightweight Visual Diagnosis:** An efficient visual model for rapid and high-accuracy disease recognition from crop images.
+* **RAG-based Management Advice:** A Retrieval-Augmented Generation (RAG) module combined with a Large Language Model to provide targeted, knowledge-backed management strategies.
+* **Interactive QA System:** A comprehensive interface integrating visual results and a reliable agricultural knowledge base.
 
-1. **Image Upload & Visual Analysis:** The system captures an image, and the lightweight visual model identifies the crop disease.
-2. **RAG-powered Knowledge Retrieval:** Based on the identified disease, relevant management practices and expert knowledge are retrieved from the text corpus (extracted from 11 agricultural textbooks).
-3. **Advice Generation:** The LLM integrates the visual diagnosis and retrieved knowledge to generate personalized diagnosis reports and management advice.
+## 🚀 To-Do / Release Schedule
 
----
+- [ ] Release environment setup (`requirements.txt`)
+- [ ] Release inference code and QA interaction scripts
+- [ ] Release agricultural text corpus and dataset samples
+- [ ] Release pre-trained model weights
 
 ## 🛠️ Quick Start
 
-**1. Prerequisite**
-Ensure you have Python 3.9+ installed.
+*Detailed installation instructions, quick start scripts, and API usage guides will be updated here once the paper is accepted and the repository is made public.*
 
-```bash
-pip install -r requirements.txt
+---
+*Thank you for your interest in our work! Please star ⭐ this repository to stay updated.*
